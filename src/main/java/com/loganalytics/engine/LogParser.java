@@ -9,12 +9,6 @@ import java.util.regex.Pattern;
 
 @Component
 public class LogParser {
-    // FIX: was "([\\d.]+)" which only matches IPv4 (digits + dots).
-    // On Windows, http.getRemoteAddr() for localhost often returns the IPv6
-    // loopback address "0:0:0:0:0:0:0:1", which contains colons and was being
-    // silently rejected by this regex — parse() returned null for every line,
-    // so nothing ever reached the database. "\\S+" matches any non-whitespace
-    // token, so it now accepts IPv4, IPv6, and IPv6 shorthand (::1) alike.
     private static final Pattern LOG_PATTERN = Pattern.compile(
         "(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})\\s+(\\w+)\\s+" +
         "IP=(\\S+)\\s+\\|\\s+METHOD=(\\w+)\\s+\\|\\s+URL=([^|]+)\\s+\\|\\s+" +

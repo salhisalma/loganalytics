@@ -42,7 +42,6 @@ public class DashboardController {
         stats.put("mediumAlerts", alertService.countBySeverity("MEDIUM"));
         stats.put("lowAlerts", alertService.countBySeverity("LOW"));
 
-        // NEW: fields needed for the "SOC-style" dashboard (matches the mock-up cards)
         stats.put("activeThreats", alertService.countActive());
         stats.put("logsLastHour", logService.countSince(LocalDateTime.now().minusHours(1)));
         stats.put("logsLast24h", logService.countSince(LocalDateTime.now().minusHours(24)));
@@ -50,7 +49,6 @@ public class DashboardController {
         return stats;
     }
 
-    // NEW: marks an alert as resolved — called by the "Resolve" button on the dashboard
     @PutMapping("/alerts/{id}/resolve")
     public ResponseEntity<ApiResponse> resolveAlert(@PathVariable Long id) {
         Optional<ThreatAlert> resolved = alertService.resolve(id);

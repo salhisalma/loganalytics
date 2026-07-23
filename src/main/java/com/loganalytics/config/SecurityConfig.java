@@ -71,7 +71,6 @@ public class SecurityConfig {
 
                     .requestMatchers(new AntPathRequestMatcher("/admin/**")).hasRole("ADMIN")
 
-                    // FIX: admins can now open the user dashboard too ("User View" button)
                     .requestMatchers(new AntPathRequestMatcher("/user/**")).hasAnyRole("USER", "ADMIN")
 
                     .requestMatchers(new AntPathRequestMatcher("/api/dashboard/**")).hasRole("ADMIN")
@@ -88,9 +87,6 @@ public class SecurityConfig {
             )
 
             .logout(logout -> logout
-                    // FIX: default Spring Security logout only matches POST /logout.
-                    // Our dashboard buttons are plain <a href="/logout"> links (GET),
-                    // so we explicitly allow GET here to make them work.
                     .logoutRequestMatcher(new AntPathRequestMatcher("/logout", "GET"))
                     .logoutSuccessUrl("/login?logout")
                     .invalidateHttpSession(true)

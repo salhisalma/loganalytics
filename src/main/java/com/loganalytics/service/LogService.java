@@ -3,7 +3,7 @@ package com.loganalytics.service;
 import com.loganalytics.model.LogEntry;
 import com.loganalytics.repository.LogEntryRepository;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;  // ← ADD THIS IMPORT
+import org.springframework.transaction.annotation.Transactional;  
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -15,10 +15,10 @@ public class LogService {
         this.logRepository = logRepository;
     }
     
-    @Transactional  // ← ADD THIS ANNOTATION
+    @Transactional  
     public LogEntry save(LogEntry entry) {
         LogEntry saved = logRepository.save(entry);
-        logRepository.flush();  // ← ADD THIS LINE TO FORCE SAVE
+        logRepository.flush();  
         return saved;
     }
     

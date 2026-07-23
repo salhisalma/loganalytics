@@ -43,7 +43,7 @@ public class ThreatDetectionEngine {
         checkSqlInjection(entry);
         checkSuspiciousUrl(entry);
         checkFlood(entry);
-        checkRepeatedFailedAccess(entry); // NEW rule
+        checkRepeatedFailedAccess(entry); 
     }
 
     private void checkBruteForce(LogEntry entry) {

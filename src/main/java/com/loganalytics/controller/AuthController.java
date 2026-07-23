@@ -22,10 +22,6 @@ public class AuthController {
     }
 
     @PostMapping("/register")
-    // FIX: register.html sends JSON (Content-Type: application/json), but this
-    // parameter had no @RequestBody, so Spring tried to bind it as regular form
-    // params instead — username/password/role all came through as null and
-    // registration silently failed every time.
     public ApiResponse register(@RequestBody RegisterRequest req,
                                 HttpServletRequest http) {
 

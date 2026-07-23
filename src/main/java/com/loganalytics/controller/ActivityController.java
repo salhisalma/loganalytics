@@ -49,7 +49,6 @@ public class ActivityController {
         return new ApiResponse(true, "Simulated suspicious URL access");
     }
 
-    // NEW: triggers the REPEATED_FAILED_ACCESS rule (many non-2xx responses from one IP)
     @PostMapping("/simulate/failedaccess")
     public ApiResponse repeatedFailedAccess(HttpServletRequest http) {
         String ip = http.getRemoteAddr();

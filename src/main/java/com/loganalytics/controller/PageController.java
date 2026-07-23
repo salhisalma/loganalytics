@@ -25,9 +25,6 @@ public class PageController {
 
     @GetMapping("/admin/dashboard")
     public String adminDashboard(Authentication authentication, Model model) {
-        // NEW: expose who is currently logged in, so the page can show it
-        // server-side instead of relying on sessionStorage (which was never
-        // actually being set anywhere).
         model.addAttribute("username", authentication.getName());
         return "admin-dashboard";
     }

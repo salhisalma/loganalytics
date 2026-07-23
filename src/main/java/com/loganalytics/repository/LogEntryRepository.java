@@ -19,9 +19,7 @@ public interface LogEntryRepository extends JpaRepository<LogEntry, Long> {
     @Query("SELECT COUNT(l) FROM LogEntry l WHERE l.timestamp >= :since")
     long countSince(@Param("since") LocalDateTime since);
 
-    // ==========================
     // Dashboard Statistics
-    // ==========================
 
     @Query("""
             SELECT l.ipAddress, COUNT(l)
