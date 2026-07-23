@@ -1,0 +1,342 @@
+﻿<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Analytics Engine</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0a0e1a;
+            color: #ffffff;
+        }
+
+        /* ===== NAVBAR ===== */
+        .navbar-custom {
+            background: rgba(17, 24, 39, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+        }
+        .navbar-custom .navbar-brand {
+            font-weight: 700;
+            font-size: 20px;
+            color: #ffffff;
+            letter-spacing: -0.3px;
+        }
+        .navbar-custom .navbar-brand i {
+            color: #3b82f6;
+            margin-right: 10px;
+        }
+        .navbar-custom .btn-outline-secondary {
+            border-color: rgba(255,255,255,0.08);
+            color: rgba(255,255,255,0.5);
+            border-radius: 8px;
+            padding: 8px 20px;
+            transition: all 0.3s ease;
+        }
+        .navbar-custom .btn-outline-secondary:hover {
+            background: rgba(255,255,255,0.05);
+            border-color: rgba(255,255,255,0.15);
+            color: #ffffff;
+        }
+        .navbar-custom .btn-primary-custom {
+            background: #1a365d;
+            border: none;
+            color: #ffffff;
+            border-radius: 8px;
+            padding: 8px 24px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .navbar-custom .btn-primary-custom:hover {
+            background: #1e3f6b;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(26, 54, 93, 0.3);
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            background: linear-gradient(135deg, #0a0e1a, #111827);
+            padding: 80px 0 70px 0;
+            text-align: center;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+        }
+        .hero .badge-tech {
+            background: rgba(255,255,255,0.03);
+            color: rgba(255,255,255,0.5);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            border: 1px solid rgba(255,255,255,0.05);
+            margin: 3px;
+            display: inline-block;
+        }
+        .hero .badge-tech i { margin-right: 6px; color: #3b82f6; }
+        .hero h1 {
+            font-size: 44px;
+            font-weight: 800;
+            color: #ffffff;
+            letter-spacing: -1px;
+        }
+        .hero h1 .highlight { color: #3b82f6; }
+        .hero .lead { color: rgba(255,255,255,0.35); font-size: 18px; margin-top: 12px; }
+        .hero .btn-hero-primary {
+            background: #1a365d;
+            border: none;
+            color: #ffffff;
+            padding: 13px 40px;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 15px;
+            transition: all 0.3s ease;
+        }
+        .hero .btn-hero-primary:hover {
+            background: #1e3f6b;
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(26, 54, 93, 0.3);
+        }
+        .hero .btn-hero-secondary {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.06);
+            color: rgba(255,255,255,0.6);
+            padding: 13px 40px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.3s ease;
+        }
+        .hero .btn-hero-secondary:hover {
+            background: rgba(255,255,255,0.06);
+            border-color: rgba(255,255,255,0.12);
+            color: #ffffff;
+        }
+
+        /* ===== FEATURES ===== */
+        .features-section {
+            padding: 70px 0;
+            background: #0d1220;
+        }
+        .features-section .section-title { text-align: center; margin-bottom: 45px; }
+        .features-section .section-title h2 { font-size: 32px; font-weight: 700; color: #ffffff; }
+        .features-section .section-title p { color: rgba(255,255,255,0.35); font-size: 16px; margin-top: 6px; }
+        .feature-card {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.04);
+            border-radius: 16px;
+            padding: 30px 25px;
+            text-align: center;
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.04);
+            border-color: rgba(59, 130, 246, 0.12);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+        }
+        .feature-card .icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background: rgba(59, 130, 246, 0.06);
+            border-radius: 14px;
+            margin-bottom: 16px;
+            font-size: 26px;
+            color: #3b82f6;
+        }
+        .feature-card h5 { font-weight: 700; font-size: 17px; color: #ffffff; margin-bottom: 8px; }
+        .feature-card p { color: rgba(255,255,255,0.35); font-size: 14px; margin-bottom: 0; line-height: 1.6; }
+
+        /* ===== STATS ===== */
+        .stats-section {
+            padding: 50px 0;
+            background: #111827;
+            border-top: 1px solid rgba(255,255,255,0.04);
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+        }
+        .stats-section .stat-item { text-align: center; }
+        .stats-section .stat-item .number {
+            font-size: 32px;
+            font-weight: 800;
+            color: #3b82f6;
+        }
+        .stats-section .stat-item .label { color: rgba(255,255,255,0.3); font-size: 13px; margin-top: 2px; }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            background: #0a0e1a;
+            padding: 25px 0;
+            border-top: 1px solid rgba(255,255,255,0.04);
+            text-align: center;
+        }
+        .footer p { color: rgba(255,255,255,0.2); font-size: 13px; margin-bottom: 0; }
+        .footer .social-links a { color: rgba(255,255,255,0.2); margin: 0 10px; font-size: 16px; transition: color 0.3s ease; }
+        .footer .social-links a:hover { color: #3b82f6; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 30px; }
+            .hero { padding: 50px 0; }
+            .hero .btn-hero-primary, .hero .btn-hero-secondary {
+                padding: 11px 28px;
+                font-size: 14px;
+                display: block;
+                width: 100%;
+                margin: 6px 0;
+            }
+            .features-section { padding: 40px 0; }
+            .features-section .section-title h2 { font-size: 26px; }
+            .stats-section .stat-item .number { font-size: 26px; }
+        }
+        @media (max-width: 480px) {
+            .hero h1 { font-size: 24px; }
+            .hero .lead { font-size: 15px; }
+            .feature-card { padding: 20px 16px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="/"><i class="fas fa-shield-halved"></i> Log Analytics Engine</a>
+            <div class="ms-auto d-flex gap-2">
+                <a href="/login" class="btn btn-outline-secondary">
+                    <i class="fas fa-arrow-right-to-bracket me-1"></i> Login
+                </a>
+                <a href="/register" class="btn btn-primary-custom">
+                    <i class="fas fa-user-plus me-1"></i> Register
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="container">
+            <div class="badge-tech"><i class="fas fa-code"></i> Java 17</div>
+            <div class="badge-tech"><i class="fas fa-leaf"></i> Spring Boot 3</div>
+            <div class="badge-tech"><i class="fas fa-file-lines"></i> Log4j2</div>
+            <div class="badge-tech"><i class="fas fa-database"></i> JPA/Hibernate</div>
+            <div class="badge-tech"><i class="fas fa-paint-brush"></i> Thymeleaf</div>
+
+            <h1 class="mt-4">
+                Intelligent Log Analytics<br>
+                <span class="highlight">&amp; Threat Detection Engine</span>
+            </h1>
+
+            <p class="lead">A SIEM-style cybersecurity monitoring platform</p>
+
+            <div class="mt-4">
+                <a href="/register" class="btn btn-hero-primary me-2">
+                    <i class="fas fa-rocket me-2"></i> Get Started
+                </a>
+                <a href="/login" class="btn btn-hero-secondary">
+                    <i class="fas fa-arrow-right-to-bracket me-2"></i> Sign In
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3 stat-item">
+                    <div class="number" id="statLogs">0</div>
+                    <div class="label">Logs Processed</div>
+                </div>
+                <div class="col-6 col-md-3 stat-item">
+                    <div class="number" id="statAlerts">0</div>
+                    <div class="label">Threats Detected</div>
+                </div>
+                <div class="col-6 col-md-3 stat-item">
+                    <div class="number">4</div>
+                    <div class="label">Detection Rules</div>
+                </div>
+                <div class="col-6 col-md-3 stat-item">
+                    <div class="number">24/7</div>
+                    <div class="label">Real-time Monitoring</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FEATURES ===== -->
+    <section class="features-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Core Capabilities</h2>
+                <p>Everything you need for security monitoring</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="icon"><i class="fas fa-chart-line"></i></div>
+                        <h5>Real-time Monitoring</h5>
+                        <p>Live log streaming with automatic updates every 5 seconds. Instant visibility into your system's activity.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="icon"><i class="fas fa-shield-halved"></i></div>
+                        <h5>Threat Detection</h5>
+                        <p>Advanced rules for brute force, SQL injection, suspicious URLs, and request flooding attacks.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="icon"><i class="fas fa-gauge-high"></i></div>
+                        <h5>Analytics Dashboard</h5>
+                        <p>Comprehensive security metrics, threat distribution charts, and top source IP analysis at a glance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links mb-2">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2026 Log Analytics Engine &middot; Built with <i class="fas fa-heart" style="color: #3b82f6;"></i> for security</p>
+        </div>
+    </footer>
+
+    <script>
+        function animateCounter(elementId, target, duration = 2000) {
+            const element = document.getElementById(elementId);
+            if (!element) return;
+            const start = 0;
+            const startTime = performance.now();
+            function update(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                const current = Math.floor(progress * target);
+                element.textContent = current.toLocaleString();
+                if (progress < 1) requestAnimationFrame(update);
+                else element.textContent = target.toLocaleString();
+            }
+            requestAnimationFrame(update);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            animateCounter('statLogs', 1247);
+            animateCounter('statAlerts', 89);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" th:href="@{/css/user-dashboard.css}">
+</head>
+<body>
+
+<div class="topbar">
+    <div class="topbar-left">
+        <i class="fa-solid fa-user-shield"></i>
+        <span class="topbar-title">User Panel</span>
+    </div>
+    <div class="topbar-right">
+        <span class="connected-as"><i class="fa-solid fa-user"></i> Connected as <strong th:text="${username}">user</strong></span>
+        <a href="/user/dashboard" class="btn-outline"><i class="fa-solid fa-house"></i> Dashboard</a>
+        <a href="#activity" class="btn-outline"><i class="fa-solid fa-bolt"></i> Activity</a>
+        <a href="#profile" class="btn-outline"><i class="fa-solid fa-id-card"></i> Profile</a>
+        <a href="/logout" class="btn-outline btn-logout"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+    </div>
+</div>
+
+<div class="dashboard-container">
+
+    <!-- Welcome -->
+    <div class="welcome-block">
+        <div>
+            <h1>Welcome, <span th:text="${username}">User</span></h1>
+            <p class="welcome-sub">User Dashboard · Standard access</p>
+        </div>
+        <div class="welcome-tag">USER</div>
+    </div>
+
+    <!-- Info cards -->
+    <div class="info-row">
+        <div class="info-card">
+            <div class="info-icon blue"><i class="fa-solid fa-user"></i></div>
+            <div class="info-title">Profile</div>
+            <div class="info-value">Standard User</div>
+        </div>
+        <div class="info-card">
+            <div class="info-icon green"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="info-title">Account Status</div>
+            <div class="info-value text-green">Active</div>
+        </div>
+        <div class="info-card">
+            <div class="info-icon yellow"><i class="fa-solid fa-calendar-day"></i></div>
+            <div class="info-title">Last Login</div>
+            <div class="info-value" id="lastLogin">Today</div>
+        </div>
+    </div>
+
+    <!-- Security Simulator -->
+    <div class="panel">
+        <div class="panel-header">
+            <div><i class="fa-solid fa-flask text-red"></i> Security Test Simulator</div>
+        </div>
+        <p class="panel-sub">These simulations generate log entries for the security engine to analyze — safe, local-only, no real attacks are performed.</p>
+        <div class="sim-buttons">
+            <button onclick="simulate('bruteforce')" class="sim-btn sim-red">
+                <i class="fa-solid fa-key"></i> Brute Force Attack
+            </button>
+            <button onclick="simulate('sqli')" class="sim-btn sim-orange">
+                <i class="fa-solid fa-database"></i> SQL Injection
+            </button>
+            <button onclick="simulate('flood')" class="sim-btn sim-blue">
+                <i class="fa-solid fa-bolt"></i> Request Flood
+            </button>
+            <button onclick="simulate('suspicious')" class="sim-btn sim-purple">
+                <i class="fa-solid fa-triangle-exclamation"></i> Suspicious URL
+            </button>
+            <button onclick="simulate('failedaccess')" class="sim-btn sim-gray">
+                <i class="fa-solid fa-ban"></i> Repeated Failed Access
+            </button>
+        </div>
+        <div id="simMessage" class="sim-message hidden"></div>
+    </div>
+
+    <!-- Recent Activity -->
+    <div class="panel" id="activity">
+        <div class="panel-header">
+            <div><i class="fa-solid fa-list-check"></i> Recent Activity</div>
+        </div>
+        <table class="user-table">
+            <thead>
+                <tr><th>Time</th><th>Activity</th><th>Status</th></tr>
+            </thead>
+            <tbody id="activityLog">
+                <tr><td colspan="3" class="empty-cell">No activity yet</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Profile Information -->
+    <div class="panel" id="profile">
+        <div class="panel-header">
+            <div><i class="fa-solid fa-id-card"></i> Profile Information</div>
+        </div>
+        <table class="user-table">
+            <tr><td class="label-cell">Username</td><td th:text="${username}">User</td></tr>
+            <tr><td class="label-cell">Role</td><td id="profileRole">USER</td></tr>
+        </table>
+    </div>
+
+</div>
+
+<script th:src="@{/js/user-dashboard.js(v=2)}"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" th:href="@{/css/admin-dashboard.css}">
+</head>
+<body>
+
+<div class="topbar">
+    <div class="topbar-left">
+        <i class="fa-solid fa-shield-halved"></i>
+        <span class="topbar-title">Admin Dashboard</span>
+        <span class="live-badge"><span class="live-dot"></span> LIVE</span>
+        <span class="updated-text">Updated: <span id="updatedAt">--:--:--</span></span>
+    </div>
+    <div class="topbar-right">
+        <span class="connected-as"><i class="fa-solid fa-user"></i> Connected as <strong th:text="${username}">admin</strong></span>
+        <a href="/user/dashboard" class="btn-outline">User View</a>
+        <a href="/" class="btn-outline">Home</a>
+        <a href="/logout" class="btn-outline btn-logout">Logout</a>
+    </div>
+</div>
+
+<div class="dashboard-container">
+
+    <!-- Stat Cards -->
+    <div class="stats-row">
+        <div class="stat-card border-blue">
+            <i class="fa-solid fa-clipboard-list stat-icon blue"></i>
+            <div>
+                <div class="stat-number" id="totalLogs">0</div>
+                <div class="stat-label">TOTAL LOGS</div>
+            </div>
+        </div>
+        <div class="stat-card border-red">
+            <i class="fa-solid fa-triangle-exclamation stat-icon red"></i>
+            <div>
+                <div class="stat-number" id="activeThreats">0</div>
+                <div class="stat-label">ACTIVE THREATS</div>
+            </div>
+        </div>
+        <div class="stat-card border-crimson">
+            <i class="fa-solid fa-circle stat-icon crimson"></i>
+            <div>
+                <div class="stat-number" id="criticalAlerts">0</div>
+                <div class="stat-label">CRITICAL ALERTS</div>
+            </div>
+        </div>
+        <div class="stat-card border-yellow">
+            <i class="fa-solid fa-triangle-exclamation stat-icon yellow"></i>
+            <div>
+                <div class="stat-number" id="logsLastHour">0</div>
+                <div class="stat-label">LOGS LAST HOUR</div>
+            </div>
+        </div>
+        <div class="stat-card border-teal">
+            <i class="fa-solid fa-globe stat-icon teal"></i>
+            <div>
+                <div class="stat-number" id="logsLast24h">0</div>
+                <div class="stat-label">LOGS LAST 24H</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Threat Alerts -->
+    <div class="panel">
+        <div class="panel-header">
+            <div><i class="fa-solid fa-triangle-exclamation text-red"></i> Threat Alerts</div>
+            <div class="filter-tabs">
+                <button class="tab active" data-filter="all">All</button>
+                <button class="tab" data-filter="active">Active</button>
+                <button class="tab" data-filter="critical">Critical</button>
+                <button class="tab" data-filter="high">High</button>
+            </div>
+        </div>
+        <div id="alertList" class="alert-list">
+            <div class="empty-state">No alerts yet</div>
+        </div>
+    </div>
+
+    <!-- Log Distribution + Threat Types -->
+    <div class="two-col">
+        <div class="panel">
+            <div class="panel-header"><div><i class="fa-solid fa-chart-bar"></i> Log Distribution</div></div>
+            <div class="bar-list" id="logDistribution"></div>
+        </div>
+        <div class="panel">
+            <div class="panel-header"><div><i class="fa-solid fa-bolt"></i> Threat Types</div></div>
+            <div class="bar-list" id="threatTypes"></div>
+        </div>
+    </div>
+
+    <!-- Top Source IPs + System Status -->
+    <div class="two-col">
+        <div class="panel">
+            <div class="panel-header"><div><i class="fa-solid fa-globe"></i> Top Source IPs</div></div>
+            <div class="bar-list" id="topIps"></div>
+        </div>
+        <div class="panel">
+            <div class="panel-header"><div><i class="fa-solid fa-circle-check"></i> System Status</div></div>
+            <div class="status-row">
+                <span>Detection Engine</span>
+                <span class="status-pill online" id="engineStatus">ONLINE</span>
+            </div>
+            <div class="status-row">
+                <span>Log Collector</span>
+                <span class="status-pill online">ONLINE</span>
+            </div>
+            <div class="status-row">
+                <span>Database</span>
+                <span class="status-pill online">CONNECTED</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script th:src="@{/js/admin-dashboard.js}"></script>
+</body>
+</html>

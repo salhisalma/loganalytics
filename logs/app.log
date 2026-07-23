@@ -1,0 +1,618 @@
+2026-07-14 16:41:14 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 27528 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-14 16:41:14 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-14 19:47:43 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 18004 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-14 19:47:43 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-14 19:50:21 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 24260 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-14 19:50:21 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-14 19:50:31 INFO  Started LogAnalyticsApplication in 11.056 seconds (process running for 13.111)
+2026-07-14 19:51:44 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=200 | MSG=successful login for user=admin
+2026-07-14 19:52:05 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=200 | MSG=successful login for user=admin
+2026-07-14 19:53:14 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/register | STATUS=400 | MSG=failed registration for user=admin
+2026-07-14 19:53:18 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/register | STATUS=400 | MSG=failed registration for user=admin
+2026-07-14 19:53:20 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/register | STATUS=400 | MSG=failed registration for user=admin
+2026-07-14 19:53:33 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=200 | MSG=successful login for user=admin
+2026-07-14 19:57:22 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=200 | MSG=successful login for user=admin
+2026-07-14 20:00:58 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=200 | MSG=successful login for user=admin
+2026-07-14 20:03:58 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=200 | MSG=successful login for user=admin
+2026-07-14 20:31:40 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 11908 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-14 20:31:40 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-14 20:31:51 INFO  Started LogAnalyticsApplication in 11.322 seconds (process running for 13.37)
+2026-07-14 20:32:31 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=200 | MSG=successful login for user=admin
+2026-07-14 20:46:00 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=200 | MSG=successful login for user=admin
+2026-07-14 20:51:01 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=200 | MSG=successful login for user=admin
+2026-07-14 20:52:55 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-14 20:53:03 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=200 | MSG=successful login for user=admin
+2026-07-14 20:54:18 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=200 | MSG=successful login for user=admin
+2026-07-14 21:01:55 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=200 | MSG=successful login for user=admin
+2026-07-14 21:07:54 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/register | STATUS=200 | MSG=successful registration for user=salma
+2026-07-14 21:08:05 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=200 | MSG=successful login for user=salma
+2026-07-14 21:09:40 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 2852 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-14 21:09:40 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-14 21:09:50 INFO  Started LogAnalyticsApplication in 11.279 seconds (process running for 13.269)
+2026-07-14 21:14:51 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 14584 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-14 21:14:51 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-14 21:15:03 INFO  Started LogAnalyticsApplication in 12.313 seconds (process running for 14.412)
+2026-07-14 21:16:39 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/register | STATUS=400 | MSG=failed registration for user=admin
+2026-07-14 22:05:28 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 19776 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-14 22:05:28 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-14 22:05:39 INFO  Started LogAnalyticsApplication in 11.819 seconds (process running for 14.167)
+2026-07-14 22:08:57 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 30644 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-14 22:08:57 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-14 22:10:14 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 3120 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-14 22:10:14 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-14 22:17:16 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 6160 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-14 22:17:16 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-14 22:17:26 INFO  Started LogAnalyticsApplication in 10.813 seconds (process running for 12.733)
+2026-07-14 22:22:29 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 11292 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-14 22:22:29 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-14 22:22:40 INFO  Started LogAnalyticsApplication in 11.9 seconds (process running for 14.21)
+2026-07-14 23:15:39 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 18896 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-14 23:15:39 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-14 23:15:50 INFO  Started LogAnalyticsApplication in 11.246 seconds (process running for 13.451)
+2026-07-14 23:25:48 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 27540 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-14 23:25:48 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-14 23:25:59 INFO  Started LogAnalyticsApplication in 10.96 seconds (process running for 13.03)
+2026-07-14 23:30:13 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 29700 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-14 23:30:13 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-14 23:30:23 INFO  Started LogAnalyticsApplication in 11.248 seconds (process running for 13.324)
+2026-07-15 11:00:36 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 32624 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-15 11:00:36 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-15 11:00:42 INFO  Started LogAnalyticsApplication in 6.733 seconds (process running for 7.725)
+2026-07-15 12:07:50 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 25792 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-15 12:07:50 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-15 12:13:56 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 14300 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-15 12:13:56 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-15 12:14:05 INFO  Started LogAnalyticsApplication in 8.945 seconds (process running for 9.933)
+2026-07-15 12:37:59 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 25092 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-15 12:37:59 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-15 12:38:05 INFO  Started LogAnalyticsApplication in 6.603 seconds (process running for 7.641)
+2026-07-15 13:39:56 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 29520 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-15 13:39:56 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-15 13:40:07 INFO  Started LogAnalyticsApplication in 11.433 seconds (process running for 13.805)
+2026-07-16 11:52:10 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 28932 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 11:52:10 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 11:52:24 INFO  Started LogAnalyticsApplication in 14.49 seconds (process running for 17.15)
+2026-07-16 11:53:12 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 29600 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 11:53:12 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 11:53:23 INFO  Started LogAnalyticsApplication in 11.783 seconds (process running for 13.83)
+2026-07-16 12:14:26 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 24276 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 12:14:26 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 12:14:38 INFO  Started LogAnalyticsApplication in 13.187 seconds (process running for 15.453)
+2026-07-16 12:30:17 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 19036 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 12:30:17 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 12:30:31 INFO  Started LogAnalyticsApplication in 14.262 seconds (process running for 16.775)
+2026-07-16 12:37:33 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 31804 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 12:37:33 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 12:37:43 INFO  Started LogAnalyticsApplication in 11.744 seconds (process running for 14.018)
+2026-07-16 12:46:00 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 14400 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 12:46:00 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 12:46:11 INFO  Started LogAnalyticsApplication in 12.207 seconds (process running for 14.355)
+2026-07-16 17:12:03 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 28476 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 17:12:03 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 17:12:15 INFO  Started LogAnalyticsApplication in 12.791 seconds (process running for 14.81)
+2026-07-16 17:17:45 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 27372 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 17:17:45 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 17:17:59 INFO  Started LogAnalyticsApplication in 15.117 seconds (process running for 17.283)
+2026-07-16 17:52:28 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 11656 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 17:52:28 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 17:52:39 INFO  Started LogAnalyticsApplication in 12.41 seconds (process running for 14.463)
+2026-07-16 19:42:56 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 18368 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 19:42:56 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 19:43:02 INFO  Started LogAnalyticsApplication in 6.734 seconds (process running for 7.718)
+2026-07-16 22:05:03 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 15012 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 22:05:03 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 22:05:14 INFO  Started LogAnalyticsApplication in 11.894 seconds (process running for 14.158)
+2026-07-16 22:15:42 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 33248 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 22:15:42 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 22:16:00 INFO  Started LogAnalyticsApplication in 20.021 seconds (process running for 23.685)
+2026-07-16 22:17:36 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 33368 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 22:17:36 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 22:17:47 INFO  Started LogAnalyticsApplication in 11.989 seconds (process running for 14.245)
+2026-07-16 22:20:54 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 20468 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 22:20:54 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 22:21:05 INFO  Started LogAnalyticsApplication in 11.45 seconds (process running for 13.438)
+2026-07-16 22:21:39 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:21:39 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:21:39 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:21:39 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:21:39 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:21:39 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:21:41 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/products?id=1' OR '1'='1 | STATUS=200 | MSG=suspicious query string
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 0
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 1
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 2
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 3
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 4
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 5
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 6
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 7
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 8
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 9
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 10
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 11
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 12
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 13
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 14
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 15
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 16
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 17
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 18
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 19
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 20
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 21
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 22
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 23
+2026-07-16 22:21:43 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 24
+2026-07-16 22:21:44 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/../../etc/passwd | STATUS=404 | MSG=path traversal attempt
+2026-07-16 22:21:45 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-0 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:21:45 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-1 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:21:45 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-2 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:21:45 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-3 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:21:45 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-4 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:21:45 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-5 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:21:45 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-6 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:21:45 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-7 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:21:45 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-8 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:21:45 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-9 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:21:45 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-10 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:21:45 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-11 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:22:10 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/products?id=1' OR '1'='1 | STATUS=200 | MSG=suspicious query string
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 0
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 1
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 2
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 3
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 4
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 5
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 6
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 7
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 8
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 9
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 10
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 11
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 12
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 13
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 14
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 15
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 16
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 17
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 18
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 19
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 20
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 21
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 22
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 23
+2026-07-16 22:22:11 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 24
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 0
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 1
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 2
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 3
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 4
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 5
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 6
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 7
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 8
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 9
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 10
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 11
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 12
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 13
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 14
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 15
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 16
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 17
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 18
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 19
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 20
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 21
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 22
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 23
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 24
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 0
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 1
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 2
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 3
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 4
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 5
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 6
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 7
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 8
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 9
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 10
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 11
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 12
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 13
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 14
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 15
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 16
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 17
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 18
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 19
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 20
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 21
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 22
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 23
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 24
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 0
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 1
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 2
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 3
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 4
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 5
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 6
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 7
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 8
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 9
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 10
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 11
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 12
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 13
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 14
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 15
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 16
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 17
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 18
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 19
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 20
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 21
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 22
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 23
+2026-07-16 22:22:12 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 24
+2026-07-16 22:22:13 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/products?id=1' OR '1'='1 | STATUS=200 | MSG=suspicious query string
+2026-07-16 22:22:14 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:22:14 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:22:14 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:22:14 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:22:14 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:22:14 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:22:18 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/products?id=1' OR '1'='1 | STATUS=200 | MSG=suspicious query string
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 0
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 1
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 2
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 3
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 4
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 5
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 6
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 7
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 8
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 9
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 10
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 11
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 12
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 13
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 14
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 15
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 16
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 17
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 18
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 19
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 20
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 21
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 22
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 23
+2026-07-16 22:22:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 24
+2026-07-16 22:22:20 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:22:20 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:22:20 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:22:20 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:22:20 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:22:20 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:22:21 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/../../etc/passwd | STATUS=404 | MSG=path traversal attempt
+2026-07-16 22:22:22 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-0 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:22:22 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-1 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:22:22 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-2 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:22:22 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-3 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:22:22 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-4 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:22:22 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-5 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:22:22 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-6 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:22:22 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-7 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:22:22 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-8 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:22:22 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-9 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:22:22 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-10 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:22:22 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-11 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 0
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 1
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 2
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 3
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 4
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 5
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 6
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 7
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 8
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 9
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 10
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 11
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 12
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 13
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 14
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 15
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 16
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 17
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 18
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 19
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 20
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 21
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 22
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 23
+2026-07-16 22:22:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 24
+2026-07-16 22:22:31 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/products?id=1' OR '1'='1 | STATUS=200 | MSG=suspicious query string
+2026-07-16 22:22:32 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/products?id=1' OR '1'='1 | STATUS=200 | MSG=suspicious query string
+2026-07-16 22:30:04 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 28964 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 22:30:04 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 22:30:15 INFO  Started LogAnalyticsApplication in 11.482 seconds (process running for 13.559)
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 0
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 1
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 2
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 3
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 4
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 5
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 6
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 7
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 8
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 9
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 10
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 11
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 12
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 13
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 14
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 15
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 16
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 17
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 18
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 19
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 20
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 21
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 22
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 23
+2026-07-16 22:37:19 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 24
+2026-07-16 22:43:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:43:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:43:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:43:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:43:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:43:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 22:43:53 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-0 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:43:53 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-1 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:43:53 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-2 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:43:53 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-3 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:43:53 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-4 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:43:53 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-5 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:43:53 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-6 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:43:53 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-7 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:43:53 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-8 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:43:53 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-9 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:43:53 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-10 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:43:53 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-11 | STATUS=403 | MSG=forbidden access attempt
+2026-07-16 22:45:04 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 31604 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 22:45:04 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 22:45:20 INFO  Started LogAnalyticsApplication in 16.972 seconds (process running for 19.387)
+2026-07-16 23:20:49 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 29956 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-16 23:20:49 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-16 23:21:04 INFO  Started LogAnalyticsApplication in 15.632 seconds (process running for 17.855)
+2026-07-16 23:21:29 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/products?id=1' OR '1'='1 | STATUS=200 | MSG=suspicious query string
+2026-07-16 23:21:34 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 23:21:34 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 23:21:34 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 23:21:34 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 23:21:34 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 23:21:34 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 0
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 1
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 2
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 3
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 4
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 5
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 6
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 7
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 8
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 9
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 10
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 11
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 12
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 13
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 14
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 15
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 16
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 17
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 18
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 19
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 20
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 21
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 22
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 23
+2026-07-16 23:21:35 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 24
+2026-07-16 23:21:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/../../etc/passwd | STATUS=404 | MSG=path traversal attempt
+2026-07-22 09:00:24 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 31064 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 09:00:24 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 09:00:39 INFO  Started LogAnalyticsApplication in 15.476 seconds (process running for 17.664)
+2026-07-22 09:14:32 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 36620 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 09:14:32 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 09:14:44 INFO  Started LogAnalyticsApplication in 12.93 seconds (process running for 15.227)
+2026-07-22 09:16:15 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 19220 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 09:16:15 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 09:16:26 INFO  Started LogAnalyticsApplication in 12.241 seconds (process running for 14.325)
+2026-07-22 09:25:43 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 7152 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 09:25:43 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 09:25:53 INFO  Started LogAnalyticsApplication in 11.582 seconds (process running for 13.803)
+2026-07-22 09:36:04 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 25032 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 09:36:04 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 09:36:14 INFO  Started LogAnalyticsApplication in 11.526 seconds (process running for 13.635)
+2026-07-22 09:36:47 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/register | STATUS=200 | MSG=Registration successful
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 0
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 1
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 2
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 3
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 4
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 5
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 6
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 7
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 8
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 9
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 10
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 11
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 12
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 13
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 14
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 15
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 16
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 17
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 18
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 19
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 20
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 21
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 22
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 23
+2026-07-22 09:40:49 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 24
+2026-07-22 09:40:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 09:40:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 09:40:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 09:40:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 09:40:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 09:40:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 09:40:52 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/../../etc/passwd | STATUS=404 | MSG=path traversal attempt
+2026-07-22 09:40:54 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-0 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:40:54 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-1 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:40:54 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-2 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:40:54 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-3 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:40:54 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-4 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:40:54 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-5 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:40:54 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-6 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:40:54 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-7 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:40:54 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-8 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:40:54 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-9 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:40:54 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-10 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:40:54 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-11 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:42:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-0 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:42:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-1 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:42:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-2 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:42:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-3 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:42:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-4 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:42:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-5 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:42:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-6 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:42:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-7 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:42:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-8 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:42:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-9 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:42:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-10 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:42:51 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-11 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 09:50:08 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 28884 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 09:50:08 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 09:50:19 INFO  Started LogAnalyticsApplication in 11.572 seconds (process running for 13.783)
+2026-07-22 10:02:29 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 35976 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 10:02:29 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 10:02:40 INFO  Started LogAnalyticsApplication in 11.764 seconds (process running for 13.912)
+2026-07-22 10:07:27 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 2260 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 10:07:27 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 10:07:38 INFO  Started LogAnalyticsApplication in 11.493 seconds (process running for 13.525)
+2026-07-22 10:12:58 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 32464 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 10:12:58 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 10:13:09 INFO  Started LogAnalyticsApplication in 11.611 seconds (process running for 13.64)
+2026-07-22 10:15:44 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 20580 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 10:15:44 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 10:15:55 INFO  Started LogAnalyticsApplication in 11.891 seconds (process running for 13.891)
+2026-07-22 10:24:56 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 8588 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 10:24:56 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 10:25:06 INFO  Started LogAnalyticsApplication in 11.642 seconds (process running for 14.071)
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 0
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 1
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 2
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 3
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 4
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 5
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 6
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 7
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 8
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 9
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 10
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 11
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 12
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 13
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 14
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 15
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 16
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 17
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 18
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 19
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 20
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 21
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 22
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 23
+2026-07-22 10:25:36 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 24
+2026-07-22 10:25:37 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/products?id=1' OR '1'='1 | STATUS=200 | MSG=suspicious query string
+2026-07-22 10:25:38 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/../../etc/passwd | STATUS=404 | MSG=path traversal attempt
+2026-07-22 10:28:16 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 10:28:16 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 10:28:16 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 10:28:16 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 10:28:16 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 10:28:16 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 10:28:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-0 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 10:28:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-1 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 10:28:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-2 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 10:28:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-3 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 10:28:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-4 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 10:28:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-5 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 10:28:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-6 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 10:28:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-7 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 10:28:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-8 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 10:28:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-9 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 10:28:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-10 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 10:28:26 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/secret-resource-11 | STATUS=403 | MSG=forbidden access attempt
+2026-07-22 10:48:29 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 1912 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 10:48:29 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 10:48:40 INFO  Started LogAnalyticsApplication in 11.699 seconds (process running for 13.716)
+2026-07-22 10:53:39 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 10:53:39 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 10:53:39 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 10:53:39 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 10:53:39 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 10:53:39 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/login | STATUS=401 | MSG=failed login for user=admin
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 0
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 1
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 2
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 3
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 4
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 5
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 6
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 7
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 8
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 9
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 10
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 11
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 12
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 13
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 14
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 15
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 16
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 17
+2026-07-22 10:54:06 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 18
+2026-07-22 10:54:07 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 19
+2026-07-22 10:54:07 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 20
+2026-07-22 10:54:07 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 21
+2026-07-22 10:54:07 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 22
+2026-07-22 10:54:07 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 23
+2026-07-22 10:54:07 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/api/data | STATUS=200 | MSG=normal request 24
+2026-07-22 10:54:08 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=GET | URL=/../../etc/passwd | STATUS=404 | MSG=path traversal attempt
+2026-07-22 15:34:41 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 38184 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 15:34:41 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 15:34:48 INFO  Started LogAnalyticsApplication in 7.605 seconds (process running for 9.027)
+2026-07-22 15:39:49 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 716 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 15:39:49 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 15:39:56 INFO  Started LogAnalyticsApplication in 7.348 seconds (process running for 8.542)
+2026-07-22 15:41:34 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 34916 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 15:41:34 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 15:41:41 INFO  Started LogAnalyticsApplication in 7.633 seconds (process running for 8.926)
+2026-07-22 15:44:04 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 20308 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 15:44:04 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 15:44:11 INFO  Started LogAnalyticsApplication in 7.358 seconds (process running for 8.632)
+2026-07-22 15:45:47 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 22764 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 15:45:47 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 15:45:54 INFO  Started LogAnalyticsApplication in 8.059 seconds (process running for 9.317)
+2026-07-22 15:47:50 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 28972 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 15:47:50 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 15:47:57 INFO  Started LogAnalyticsApplication in 8.156 seconds (process running for 9.517)
+2026-07-22 15:49:33 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 36228 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-22 15:49:33 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-22 15:49:39 INFO  Started LogAnalyticsApplication in 7.175 seconds (process running for 8.479)
+2026-07-22 15:50:24 INFO  IP=0:0:0:0:0:0:0:1 | METHOD=POST | URL=/register | STATUS=200 | MSG=Registration successful
+2026-07-23 09:29:32 INFO  Starting LogAnalyticsApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 10248 (C:\Users\pc\loganalytics\target\loganalytics-0.0.1-SNAPSHOT.jar started by SALMA in C:\Users\pc\loganalytics)
+2026-07-23 09:29:32 INFO  No active profile set, falling back to 1 default profile: "default"
+2026-07-23 09:29:45 INFO  Started LogAnalyticsApplication in 14.093 seconds (process running for 16.347)
