@@ -48,7 +48,7 @@ Threat Detection Engine* internship guide.
 ```
 BROWSER (client)
   index / login / register / user & admin dashboards
-  dashboard.js / user-dashboard.js -> poll REST API every few seconds
+  admin-dashboard.js / user-dashboard.js -> poll REST API every few seconds
         |
         v
 CONTROLLER LAYER
